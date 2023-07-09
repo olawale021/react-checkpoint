@@ -25,7 +25,7 @@ function NavbarComp() {
                 <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
                 <Nav.Link as={Link} to={"/About"}>About</Nav.Link>
                 <NavDropdown title="Link" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action3">Pricing</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">
                     Another action
                 </NavDropdown.Item>
