@@ -35,7 +35,7 @@ function NavbarComp() {
                 </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#" disabled>
-                Bootsrap
+                Bootstrap
                 </Nav.Link>
             </Nav>
             <Form className="d-flex">
