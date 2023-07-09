@@ -9,7 +9,7 @@ function FormComp() {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
-    const form = event.currentTarget;
+    const form = event.currentTarget;                   //setting element that was clicked
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
