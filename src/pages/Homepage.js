@@ -3,10 +3,11 @@ import NavbarComp from '../components/NavbarComp'
 import Cards from '../components/cards'
 import FormComp from '../components/formComp'
 
+////////////////////////////////React.Fragment allows you to return more than one element
 
 function Homepage() {
   return (
-    <React.Fragment>
+    <React.Fragment>                  
     <div className='NavCom'>
       <NavbarComp />
     </div>
